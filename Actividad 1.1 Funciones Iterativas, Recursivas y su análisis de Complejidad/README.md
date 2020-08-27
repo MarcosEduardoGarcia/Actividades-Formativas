@@ -20,9 +20,13 @@ Ejemplo
 Cuando n es igual a 3, dentro de nuestra función tenemos un caso base donde si n=0 regresamos un 0 mientras eso no se cumpla aplicaremos n + sumaIterativa(n-1)
 
 sumaIterativa(3)¬
+
       3 + sumaIterativa(2)¬
+      
               2 + sumaIterativa(1)¬
+              
                    1 + sumaIterativa(0)¬
+                   
                       0
                       
  Obteniendo que el numero de pasos es igual a n por lo tanto es lineal O(n)
