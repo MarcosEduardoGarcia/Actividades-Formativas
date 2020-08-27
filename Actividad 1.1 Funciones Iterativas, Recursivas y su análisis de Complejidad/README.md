@@ -1,6 +1,6 @@
 # Análisis de complejidad asintotica 
 
-_Suma iterativa_
+**Suma iterativa**
 
 Esta función presenta una complejidad temporal lineal O(n):
 n siendo el numero hasta el que se quiera sumar se entrará a un ciclo for que ira de uno hasta n dandonos el O(n) dentro del ciclo se ejecutan instruccciones simples O(1) multiplicando O(n) * O(1) sera igual a O(n)
