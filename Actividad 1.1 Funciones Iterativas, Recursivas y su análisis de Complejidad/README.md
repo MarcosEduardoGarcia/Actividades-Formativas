@@ -7,7 +7,7 @@ n siendo el numero hasta el que se quiera sumar se entrará a un ciclo for que i
 
 Ejemplo
 
-Si se quiere calcular la suma iterativa para 3: Entramos al ciclo en 1 y realizamos las acciones simples, entramos de nuevo al ciclo en 2 y ejecutamos acciones simples por ultimo entramos en 3 realizamos acciones simples y salimos del ciclo for por lo que observamos que el tiempo es lineal O(n) tantos pasos como numero de datos.
+Si se quiere calcular la suma iterativa para 3: Entramos al ciclo en 1 y en una variable vamos sumando el iterador (1), entramos de nuevo al ciclo en 2 y en nuestra variable sumamos el valor del iterador (2) por ultimo entramos en 3 sumamos el iterador con valor 3 y salimos del ciclo for por lo que observamos que el tiempo es lineal O(n) tantos pasos como numero de datos.
 
 
 **Suma Recursiva**
