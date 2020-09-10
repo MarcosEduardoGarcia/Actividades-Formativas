@@ -15,6 +15,9 @@ El algortimo ira comparando datos contiguos e intercambiandolos si el de la izqu
 
 **Ordena merge**
 
+El ordenamiento merge es de complejidad O(n*log(n))
+
+El algortimo es por naturaleza recursivo por lo que con la funcion mergesplit vamos separando el arreglo hasta llegar a tenerlo cada elemento en un arreglo de una sola localidad aunque esto se maneja operando los indices y haciendo uso de un arreglo temporal con la misma dimension del arreglo a ordenar el separar el arreglo genera una complejidad de log(n) y una vez que se separan mediante la funcion mergearray vamos a mezclar los arreglos ordenandolos y esto se realizara en n pasos que son sentencias simples O(1) por lo que log(n)* n * O(1) =  O(n*log(n)) 
 
 
 
