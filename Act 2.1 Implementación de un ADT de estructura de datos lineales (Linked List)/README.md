@@ -1,10 +1,10 @@
 # ANÁLISIS DE COMPLEJIDAD DE FUNCIONES
 
-**Función ADD**
+**Función add**
 
 Esta función presenta una complejidad O(n) estamos considerando el peor de los casos donde se desee añadir un nodo al final donde se entra en un loop que se ejecuta mientras la Flecha del nodo apunte a otro nodo y en el momento que llegue a null colocará ahi el elemento por lo que tiene que hacer n iteraciones igual a la cantidad de elementos en la lista
 
-**Función FIND**
+**Función find**
 
 Esta posicion regresa la posición donde se encuntra un elemento solicitado por lo que se tiene que recorrer la lista desde el comienzo hasta que el valor pedido sea igual al valor guardado en el nodo y en caso de no encontrarlo despues de recorrer toda la estrutura se regresará un -1 por lo cual esta función será 0(n)
 
