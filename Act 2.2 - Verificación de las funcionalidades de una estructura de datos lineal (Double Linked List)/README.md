@@ -6,7 +6,7 @@
 
 Complejidad: O(1) 
 
-Esta función permite añadir un nuevo elemento a la lista donde se presenta un condicional donde se comprueba si la lista esta vacia de ser ese el caso se añadira ese elemento como primero a la lista de lo contrario se ira por la rama de else que colocara el nuevo elemento al final esto se ejecuta en tiempo constante no se presentan ciclos por lo tanto será O(1)
+Esta función permite añadir un nuevo elemento a la lista donde se presenta un condicional donde se comprueba si la lista esta vacia de ser ese el caso se añadira ese elemento como primero a la lista de lo contrario se ira por la rama de else que colocara el nuevo elemento al final esto se ejecuta en tiempo constante ya que tomamos tail desde el inicio no hay que recorrer la lista para llegar al final al no presentarse ciclos por lo tanto será O(1)
 
 **FIND**
 
