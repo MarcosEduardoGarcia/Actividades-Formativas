@@ -122,7 +122,14 @@ void DList<T> :: remove(int indice){
     size --;
     return;
   }
-
+  if(indice == size-1){
+    p = tail;
+    tail = p->Flecha_Atras;
+    p->Flecha_Atras->Flecha_Adelante=0;
+    delete p;
+    size--;
+    return;
+  }
   while (pos != indice){
     p = p->Flecha_Adelante;
     pos++;
