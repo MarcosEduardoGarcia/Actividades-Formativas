@@ -159,7 +159,7 @@ void Nodo<T>::postorder(stringstream &aux) const {
 template <class T>
 void Nodo<T>::DaNiveles(stringstream &aux, int level) const {
 
-	if(level == 0){
+	if(level >= 0){
 		if (aux.tellp() != 1) {
 			aux << " ";
 		}
@@ -177,9 +177,7 @@ template <class T>
 void Nodo<T>::RecorreNiveles(stringstream &aux) const {
 	int level = height();
 
-	for(int i = 0; i < level; i++){
-			DaNiveles(aux, i);
-	}
+	DaNiveles(aux, level);
 }
 
 template <class T>
