@@ -56,7 +56,7 @@ Nodo<T>* Nodo<T>::add(T val) {
       return izquierda;
     }
   }
-  
+
   else {
 
     if (derecha != 0) {
@@ -306,7 +306,7 @@ class SplayTree {
 
 private:
   Nodo<T> *root;
-
+  int cont;
 public:
   SplayTree();
   bool empty() const;
@@ -329,6 +329,7 @@ bool SplayTree<T>::empty() const {
 
 template <class T>
 void SplayTree<T>::add(T val) {
+  cont ++;
   if ( root != 0) {
     Nodo<T>* added = root->add(val);
     root = root->splay(root,added);
@@ -340,6 +341,7 @@ void SplayTree<T>::add(T val) {
 
 template <class T>
 void SplayTree<T>::remove(T val) {
+  cont--;
   if (root != 0) {
     if (val == root->valor) {
       Nodo<T> *succ = root->succesor();
@@ -410,7 +412,7 @@ string SplayTree<T>::preorder() const {
 
 template <class T>
 int SplayTree<T>::size(){
-	return 0;
+	return cont;
 }
 
 #endif
