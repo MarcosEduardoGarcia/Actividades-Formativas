@@ -9,7 +9,7 @@ A01276213
 
 #include <iostream>
 
-class funciones{
+class Funciones{
 public:
 
   int sumaIterativa(int n){
