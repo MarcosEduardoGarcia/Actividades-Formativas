@@ -1,3 +1,9 @@
+//Actividad 4.1
+//GRAFOS
+
+//Marcos Eduardo García Ortiz A01276213
+
+//Librerias
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -10,7 +16,7 @@
 #include <iterator>
 
 using namespace std;
-
+//Clase grafo
 class Graph{
 private:
   list<int> Adyacen_list[100];
@@ -35,11 +41,12 @@ public:
   string printVisited(vector<int> &visitedOrder);
   string printPath(int path[], int inicio, int meta);
 };
-
+//Constructor
 Graph::Graph(){
   Arco = 0;
 }
 
+//Funciones de funcionamiento
 
 void Graph::addEdge(int u, int v){
   Adyacen_list[u].push_back(v);
